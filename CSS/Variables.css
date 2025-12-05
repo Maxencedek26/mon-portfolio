@@ -1,0 +1,26 @@
+:root {--bg-color:#121212;
+       --text-color:white;
+       --caption-color:#9b9b9b;
+       --nav-color: rgb(37, 17, 17);
+       --shadow-color: rgba(30, 155, 212, 0.5);
+
+       --projet1-color:rgb(16, 116, 129);
+       --projet2-color:rgb(29, 141, 76);
+       --projet3-color:rgb(149, 73, 221);
+       --projet4-color:rgb(218, 138, 18);
+}
+.red {
+--container-color:rgb(214, 87, 87);
+}
+.blue {
+--container-color:rgb(82, 57, 172);
+}
+.green {
+--container-color:rgb(121, 156, 80);
+}
+.purple {
+--container-color:rgb(134, 64, 155);
+}
+.cyan {
+--container-color:rgb(56, 143, 150);
+}
