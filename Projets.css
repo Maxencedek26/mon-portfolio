@@ -1,0 +1,30 @@
+.fond_translucide {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(27, 26, 26, 0.85); /* Fond semi-transparent */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    font-size:20px;
+}
+
+figure {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  width: 700px;
+  vertical-align: top;
+}
+
+figure img {
+  width: 100%; 
+  height: auto;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: var(--caption-color);
+  word-wrap: break-word; 
+  white-space: normal; 
+}
