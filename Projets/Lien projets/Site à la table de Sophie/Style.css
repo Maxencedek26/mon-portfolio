@@ -1,0 +1,130 @@
+body {background-color:#3DB650;}
+
+#body1 {Background-image : url("images/fond resto.bmp");
+		background-size:152%;
+		background-repeat: no-repeat;}
+#body2{Background-image : url("images/intérieur resto.bmp");
+		background-size :152%;
+background-repeat: no-repeat;}
+h1  {font-family:Georgia;
+		font-size:45px}	
+h2  {font-family:Georgia;
+		font-size:30px}	
+h3 {font-family:Georgia;
+		font-size:20px}		
+#tableau1{background-color: #3DB650;
+		width:100%;}
+#tableau2 {margin-top: 5%;
+			width:65%;
+			margin-left: 20%;
+			Background-image : url("images/fond tableau.jpg");
+		background-size:100%;
+		border-style:solid;
+		border-color:black;}
+#tableau3{margin-top: 8%;
+			width:40%;
+			margin-left: 4%;
+			Background-image:url("images/fond tableau.jpg");
+			background-size:100%;
+			border-style:solid;
+		border-color:black;}
+#tableau4{margin-left:45%; }
+#tableau5	{margin-top: 8%;
+			width:75%;
+			margin-left: 6%;
+			Background-image : url("images/fond tableau.jpg");
+			background-size:100%;
+			border-style:solid;
+		border-color:black;}	
+#tableau6	{margin-top: 8%;
+			width:25%;
+			margin-left: 6%;
+			Background-image : url("images/fond tableau.jpg");
+			background-size:100%;
+			border-style:solid;
+		border-color:black;}	
+#tableau7 {margin-top: 8%;
+			width:60%;
+			margin-left: 35%;
+			margin-top: -17%;
+			Background-image : url("images/fond tableau.jpg");
+			background-size:100%;
+			border-style:solid;
+		border-color:black;}
+#tableau8 {Background-image : url("images/feuille papier.png");
+			background-size:100%;}
+#tableau9{margin-top: -48.3%;
+			width:50%;
+			margin-left: 47%;
+			Background-image:url("images/fond tableau.jpg");
+			background-size:100%;
+			border-style:solid;
+		border-color:black;}
+
+#tableau10{margin-top: 8%;
+			width:50%;
+			margin-left: 25%;
+			Background-image:url("images/fond tableau.jpg");
+			background-size:100%;
+			border-style:solid;
+		border-color:black;}
+#case1 {border-style:solid;
+		border-color:black;
+		width:85%;}
+					
+#case2 {border-style:solid;
+		background-color:lightgrey;
+		border-color:black;}
+
+#case_grise {border-style:solid;
+		background-color:lightgrey;
+		width:16.6%;
+		border-color:black;}		
+#case_blanche {border-style:solid;
+		background-color:white;
+		width:16.6%;
+border-color:red;}
+#case_formulaire {margin-left:-20%;}
+#Titre {font-size:90px;
+		font-family:Edwardian Script ITC;
+		margin-left: 10%;}
+#Texte_agrandit {font-size:25px;
+				font-family:Courier;}
+#Texte_agrandit2 {font-size:25px;
+				font-family:Verdana;}
+#Texte_blanc {font-family:Impact;
+				color:white;
+				font-size:30px;}				
+#image1 {margin-left: 30%;}
+#image2 {margin-left: 15%;}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+	font-family:Verdana;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+#div1 {position:absolute; left:440px; top:590px; width:64px; height:58px; z-index:2}
+#div2 {position:absolute; left:1300px; top:500px; width:64px; height:58px; z-index:2}
+#div3 {position:absolute; left:1300px; top:650px; width:64px; height:58px; z-index:2}
+#div4 {position:absolute; left:1300px; top:1050px; width:64px; height:58px; z-index:2}
+#div5 {position:absolute; left:1300px; top:1500px; width:64px; height:58px; z-index:2}
+#div6 {position:absolute; left:930px; top:870px; width:64px; height:58px; z-index:2}
+#div7 {position:absolute; left:930px; top:1190px; width:64px; height:58px; z-index:2}
+#div8 {position:absolute; left:500px; top:1180px; width:64px; height:58px; z-index:2}
+#div9 {position:absolute; left:1400px; top:1180px; width:64px; height:58px; z-index:2}
+#div10 {position:absolute; left:1530px; top:580px; width:64px; height:58px; z-index:2}
+#div11 {position:absolute; left:200px; top:580px; width:64px; height:58px; z-index:2}
+#div12 {position:absolute; left:900px; top:580px; width:64px; height:58px; z-index:2}
+#div13 {position:absolute; left:1530px; top:1680px; width:64px; height:58px; z-index:2}
+#div14 {position:absolute; left:200px; top:1680px; width:64px; height:58px; z-index:2}
+#div15 {position:absolute; left:900px; top:1680px; width:64px; height:58px; z-index:2}
+#div16 {position:absolute; left:920px; top:570px; width:64px; height:58px; z-index:2}
+#div17 {position:absolute; left:1540px; top:620px; width:64px; height:58px; z-index:2}
