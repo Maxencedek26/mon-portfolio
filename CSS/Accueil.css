@@ -29,7 +29,7 @@
 
 
 
-.info_item h3 {
+.info_container h3 {
     font-size: clamp(0.8em, 2vw, 1em);
     margin-bottom: clamp(5px, 1.5vw, 10px);
 }
@@ -108,6 +108,7 @@
         width: 90%;
     }
 }
+
 
 
 
