@@ -1,33 +1,60 @@
-.info_container {
-    font-size: 30px;
-    padding-bottom: 100px;
-    color: var(--text-color);
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.info_item {
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 20px 30px;
-    flex: 0 0 calc(45% - 20px);
-    max-width: calc(45% - 20px);
-    background-color: var(--container-color);
-    box-shadow: 20px 20px 30px var(--shadow-color);
-    transition: 0.3s ease-in;
-    transform: scale(0.7,0.7);
-}
-.info_item:hover {
-            transform: scale(0.9,0.9);
-            transition: 0.3s ease-in;  
-        }
-.info_container h3 {
-    font-size: 1em;
-    margin-bottom: 10px;
+#photo {
+    margin-top: clamp(20px, 5vw, 50px);
+    width: clamp(120px, 20vw, 180px);
+    height: clamp(120px, 20vw, 180px);
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: clamp(20px, 5vw, 50px);
 }
 
-mark.black { 
-    background-color: var(--bg-color);
+
+#nom {
+    font-family: "Science Gothic", sans-serif;
+    font-size: clamp(32px, 6vw, 48px);
     color: var(--text-color);
 }
+
+
+#sous-titre {
+    font-size: clamp(14px, 3vw, 20px);
+    color: var(--text-color);
+    font-weight: normal;
+    margin-bottom: clamp(40px, 10vw, 100px);
+}
+
+#github {
+    height: clamp(28px, 6vw, 40px);
+    width: clamp(28px, 6vw, 40px);
+}
+
+
+
+#présentation {
+    background: repeating-linear-gradient(
+        0deg,
+        #2d19a0 0 15px,   
+        #000000 10px 80px 
+    );
+
+    width: clamp(80%, 45%, 45%);
+    margin: clamp(10px, 3vw, 40px) auto;
+    padding: clamp(15px, 4vw, 20px);
+    border-radius: clamp(8px, 2vw, 10px);
+}
+
+
+
+@media (max-width: 768px) {
+
+    .info_item {
+        flex: 0 0 100%;
+        max-width : 100%;
+        transform: scale(0.9);
+    }
+
+    #présentation {
+        width: 90%;
+    }
+}
+
