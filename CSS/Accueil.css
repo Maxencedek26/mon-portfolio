@@ -1,3 +1,18 @@
+.red {
+--container-color:rgb(214, 87, 87);
+}
+.blue {
+--container-color:rgb(82, 57, 172);
+}
+.green {
+--container-color:rgb(121, 156, 80);
+}
+.purple {
+--container-color:rgb(134, 64, 155);
+}
+.cyan {
+--container-color:rgb(56, 143, 150);
+}
 .info_container {
     font-size: clamp(18px, 3vw, 30px);
     padding-bottom: clamp(40px, 10vw, 100px);
@@ -33,21 +48,7 @@
     font-size: clamp(0.8em, 2vw, 1em);
     margin-bottom: clamp(5px, 1.5vw, 10px);
 }
-.red {
---container-color:rgb(214, 87, 87);
-}
-.blue {
---container-color:rgb(82, 57, 172);
-}
-.green {
---container-color:rgb(121, 156, 80);
-}
-.purple {
---container-color:rgb(134, 64, 155);
-}
-.cyan {
---container-color:rgb(56, 143, 150);
-}
+
 
 #photo {
     margin-top: clamp(20px, 5vw, 50px);
@@ -108,6 +109,7 @@
         width: 90%;
     }
 }
+
 
 
 
