@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="CSS/Style.css" type="text/css">
     <link rel="stylesheet" href="CSS/Variables.css" type="text/css">
     <link rel="stylesheet" href="CSS/Accueil.css" type="text/css">
-    
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="images/icône pages.jpg" type="image/x-icon">
@@ -18,68 +19,71 @@
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="Projets.html">Mes Projets</a></li>
+            <li><a href="index.html"><i class="bx bx-home"></i> Accueil</a></li>
+            <li><a href="Projets.html"><i class="bx bx-folder"></i> Mes Projets</a></li>
         </ul>
     </nav>
-    <header>
+    <header id="présentation">
         <img id="photo" src="images/Photos/photo.png" alt="Photo de Boussaert Maxence">
-        <h1 id="nom"><mark class="black">Boussaert Maxence</mark></h1>
-        <h2 id="sous-titre"><mark class="black">Étudiant à l'ULCO en première année de licence informatique</mark></h2>
+        <h1 id="nom">Boussaert Maxence</h1>
+        <h2 id="sous-titre">Étudiant à l'ULCO en première année de licence informatique</h2>
     </header>
     <hr>
     <main>
         <h2 class="texte_centre"><u>A propos de moi:</u></h2>
         <br>
         <section aria-label="A-propos" class="info_container">
-            <div class="info_item blue">
-                <h3>✏️Langages de programmation</h3>
+            <article class="info_item blue">
+                <h3>✏️ Langages de programmation</h3>
                 <ul>
                     <li>Python</li>
                     <li>HTML et CSS</li>
                     <li>SQL</li>
                 </ul>
-            </div>
-            <div class="info_item green">
-                <h3>♟️Mes centres d'intérêt</h3>
+            </article>
+
+            <article class="info_item green">
+                <h3>♟️ Mes centres d'intérêt</h3>
                 <ul>
                     <li>Échecs</li>
-                    <li>Jeux-vidéos (Jeux de survie, roguelikes, sandbox)</li>
-                    <li>Lecture (Romans d'aventure, de mystère)</li>
+                    <li>Jeux-vidéos (survie, roguelikes, sandbox)</li>
+                    <li>Lecture (aventures, mystère)</li>
                 </ul>
-            </div>
+            </article>
 
-            <div class="info_item red">
-                <h3>🗣️Langues parlées</h3>
+            <article class="info_item red">
+                <h3>🗣️ Langues parlées</h3>
                 <ul>
                     <li>Français : Langue natale</li>
                     <li>Anglais : Niveau C1</li>
                     <li>Espagnol : Niveau B1</li>
                 </ul>
-            </div>
-            <div class="info_item purple">
-                <h3>🎖️Certification PIX</h3>
+            </article>
+
+            <article class="info_item purple">
+                <h3>🎖️ Certification PIX</h3>
                 <ul>
                     <li>496 points</li>
                 </ul>
-            </div>
+            </article>
         </section>
-    <hr>
-    <h2 class="texte_centre">Mes contacts:</h2>
-    <br>
-        <section aria-label="Contacts" class="info_container">
-            <h3 class="info_item cyan">
-            Mon adresse E-mail: maxenceb2611@gmail.com <br>
-            Mon compte Github: <img src="images/githubLogo.png" height=40px; width=40px;> <a href="https://github.com/Maxencedek26">Maxencedek26</a>
-            </h3>
+        <hr>
+        <h2 class="texte_centre">Mes contacts:</h2>
+        <br>
+            <section aria-label="Contacts" class="info_container">
+                <h3 class="info_item cyan">
+                Mon adresse E-mail: maxenceb2611@gmail.com <br>
+                Mon compte Github: <img src="images/githubLogo.png" id="github" alt="logo de Github";> <a href="https://github.com/Maxencedek26">Maxencedek26</a>
+                </h3>
+            </section>
         </section>
-    </section>
-</main>
+    </main>
     <footer>
         <p>&copy; 2025-2026 Boussaert Maxence - Tous droits réservés</p>
     </footer>
 </body>
 </html>
+
 
 
 
