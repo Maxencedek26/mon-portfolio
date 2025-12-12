@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/Variables.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/projets.css" type="text/css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../images/icône pages.jpg" type="image/x-icon">
+    <title>Projet — Labyrinthe</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html"><i class="bx bx-home"></i> Accueil</a></li>
+            <li><a href="../Projets.html"><i class="bx bx-folder"></i> Projets</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 class="titreProjet"><u>Labyrinthe: Jeu d'évasion avec IA</u></h1>
+        <figure>
+        <img src="../images/labyrinthe_eclaire.png" alt="Image d'un labyrinthe">
+        <figcaption><i>Labyrinthe de taille 40 x 40 tuiles, généré procéduralement, le joueur en rouge, la sortie en vert et les ennemis en marron et orange.</i></figcaption>
+        </figure>
+        <figure>
+        <img src="../images/labyrinthe_sombre.png" alt="Image du même labyrinthe mais dans l'obscurité, à part le champ de vision du personnage joueur">
+        <figcaption><i>Même labyrinthe mais tel que le joueur le voit en jeu, il ne peut pas voir à travers les murs et trop loin.</i></figcaption>
+        </figure>
+    </header>
+
+<main class="fond_translucide">
+    <section aria-labelledby="Concept">
+        <h2>Concept général</h2>
+        <p>Ce projet est un jeu d’évasion dans un labyrinthe généré aléatoirement. 
+        Le joueur doit trouver la sortie tout en évitant plusieurs types d’ennemis dotés d’une intelligence artificielle avancée.  
+        Le labyrinthe, les salles, les chemins et les ennemis changent à chaque partie pour garantir une expérience unique.</p>
+    </section>
+
+    <section aria-labelledby="Mécaniques">
+        <h2>Mécaniques principales</h2>
+        <ul>
+            <li><b>Génération procédurale :</b> création de labyrinthes complexes avec salles, couloirs et boucles.</li>
+            <li><b>Système de lumière :</b> le joueur ne voit que ce qui est éclairé autour de lui.</li>
+            <li><b>Ennemis intelligents :</b> IA avec errance, poursuite, recherche, prédiction de mouvement et évitement des murs.</li>
+            <li><b>Ennemis rapides :</b> un type spécial d’ennemi ralenti lorsqu’il reste dans la lumière du joueur.</li>
+            <li><b>Caméra mobile :</b> vue fluide centrée sur le joueur et système plein écran.</li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="Programmation">
+        <h2>Aspects techniques</h2>
+        <p>Le projet combine algorithmie, optimisation et développement de gameplay.</p>
+        <ul>
+            <li><b>Langage :</b> Python + Pygame.</li>
+            <li><b>Génération du labyrinthe :</b> DFS itératif, salles aléatoires et passages additionnels.</li>
+            <li><b>IA ennemie :</b> A*, prédiction, champ de vision, recherche du joueur, anti-blocage.</li>
+            <li><b>Optimisation :</b> raycasting amélioré, pathfinding limité, gestion d'exposition à la lumière.</li>
+            <li><b>Système d’affichage :</b> caméra dynamique + rendu basé sur les tiles visibles.</li>
+        </ul>
+
+        <h2>Objectifs et apprentissages</h2>
+        <ul>
+            <li>Apprentissage de l’algorithme A* et optimisation du pathfinding.</li>
+            <li>Conception d'une IA multi-états (wander / chase / search).</li>
+            <li>Implémentation de collisions avancées et d’une caméra mobile.</li>
+            <li>Amélioration des performances sur grand labyrinthe (jusqu’à 100×100).</li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="Conclusion">
+        <h2>Conclusion</h2>
+        <p>Ce projet est un excellent terrain d’expérimentation pour l’IA dans les jeux vidéo, 
+        la génération procédurale et l’optimisation graphique.  
+        Le résultat est un jeu intense, rejouable et techniquement riche.</p>
+    </section>
+
+    <section aria-labelledby="Démonstration">
+        <h2><a href="Lien projets/Labyrinthe.zip" download>Télécharger le projet</a></h2>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025-2026 Boussaert Maxence - Tous droits réservés</p>
+</footer>
+</body>
+</html>
